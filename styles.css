@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+10&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jersey 10", sans-serif, Helvetica;
+  color: #607c3c;
+}
+
+body {
+  background-color: #ececa3;
+}
+
+h1 {
+  padding-top: 2%;
+  padding-bottom: 1%;
+  font-size: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+}
+
+.score-cnt {
+  padding-top: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40%;
+  padding-bottom: 3%;
+}
+
+.p1-cnt,
+.p2-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  border: 2px solid #607c3c;
+}
+
+.p1-cnt p,
+.p2-cnt p {
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 20px;
+  background-color: #b5e550;
+  border-right: 2px solid #607c3c;
+}
+
+.p1-cnt span,
+.p2-cnt span {
+  font-size: 20px;
+}
+
+.p1-score,
+.p2-score {
+  padding: 5px 10px;
+}
+
+.turn {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 4%;
+}
+
+.grid-cnt {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+}
+
+.grid {
+  height: 450px;
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid p {
+  font-size: 200px;
+  font-family: "Nanum Brush Script";
+}
+
+#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b6 {
+  border-bottom: 2px solid #607c3c;
+}
+
+#b1,
+#b4,
+#b7,
+#b2,
+#b5,
+#b8 {
+  border-right: 2px solid #607c3c;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 35%;
+}
+
+.buttons div button {
+  padding: 0px 2%;
+  width: 8em;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #b5e550;
+}
